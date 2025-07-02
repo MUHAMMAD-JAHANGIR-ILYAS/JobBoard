@@ -1,1 +1,14 @@
-/Users/jahangir/Documents/PROJECTS/jobboard/src/main/java/com/jobboard/JobBoardApplication.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/JobBoardApplication.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/config/PasswordConfig.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/config/SecurityConfig.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/controller/AuthenticationController.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/dto/AuthResponse.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/dto/LoginRequest.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/dto/RegisterRequest.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/model/Role.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/model/User.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/repository/UserRepository.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/security/JwtAuthFilter.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/security/JwtService.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/service/AuthService.java
+/Users/jahangir/Documents/PROJECTS/JobBoard/JobBoard-backend/src/main/java/com/jobboard/service/CustomUserDetailsService.java
