@@ -1,9 +1,14 @@
+com/jobboard/repository/JobRepository.class
+com/jobboard/model/Job$JobBuilder.class
 com/jobboard/repository/UserRepository.class
 com/jobboard/model/User$UserBuilder.class
 com/jobboard/config/SecurityConfig.class
 com/jobboard/security/JwtAuthFilter.class
+com/jobboard/model/Job.class
 com/jobboard/dto/RegisterRequest.class
 com/jobboard/service/CustomUserDetailsService.class
+com/jobboard/controller/JobController.class
+com/jobboard/service/JobService.class
 com/jobboard/model/User.class
 com/jobboard/security/JwtService.class
 com/jobboard/service/AuthService.class
