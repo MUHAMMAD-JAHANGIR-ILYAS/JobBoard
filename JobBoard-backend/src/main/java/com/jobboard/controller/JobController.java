@@ -1,5 +1,6 @@
 package com.jobboard.controller;
 
+import com.jobboard.dto.JobDto;
 import com.jobboard.model.Job;
 import com.jobboard.service.JobService;
 import lombok.RequiredArgsConstructor;
@@ -19,20 +20,21 @@ public class JobController {
     //  Create a new job (RECRUITER only)
     @PostMapping
     @PreAuthorize("hasRole('RECRUITER')")
-    public ResponseEntity<Job> createJob(@RequestBody Job job) {
+    public ResponseEntity<JobDto> createJob(@RequestBody Job job) {
         return ResponseEntity.ok(jobService.createJob(job));
     }
 
     //  Public: View all jobs
     @GetMapping
-    public ResponseEntity<List<Job>> getAllJobs() {
+    public ResponseEntity<List<JobDto>> getAllJobs() {
         return ResponseEntity.ok(jobService.getAllJobs());
     }
+
 
     //  Recruiter: View own jobs
     @GetMapping("/my")
     @PreAuthorize("hasRole('RECRUITER')")
-    public ResponseEntity<List<Job>> getMyJobs() {
+    public ResponseEntity<List<JobDto>> getMyJobs() {
         return ResponseEntity.ok(jobService.getMyJobs());
     }
 

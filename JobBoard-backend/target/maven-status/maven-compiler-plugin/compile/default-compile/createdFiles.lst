@@ -18,3 +18,4 @@ com/jobboard/config/PasswordConfig.class
 com/jobboard/JobBoardApplication.class
 com/jobboard/dto/LoginRequest.class
 com/jobboard/controller/AuthenticationController.class
+com/jobboard/dto/JobDto.class
