@@ -25,6 +25,16 @@ services:
     networks:
       - jobboard-network
 
+  frontend:
+    build:
+      context: ./JobBoard-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - jobboard-network
+
 networks:
   jobboard-network:
     driver: bridge

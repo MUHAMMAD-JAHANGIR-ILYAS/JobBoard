@@ -19,7 +19,6 @@ public class JobController {
 
     //  Create a new job (RECRUITER only)
     @PostMapping
-    @PreAuthorize("hasRole('RECRUITER')")
     public ResponseEntity<JobDto> createJob(@RequestBody Job job) {
         return ResponseEntity.ok(jobService.createJob(job));
     }
