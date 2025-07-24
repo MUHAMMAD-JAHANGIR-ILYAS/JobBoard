@@ -28,12 +28,16 @@ services:
   frontend:
     build:
       context: ./JobBoard-frontend
+      dockerfile: Dockerfile.dev
     ports:
-      - "3000:80"
-    depends_on:
-      - backend
+      - "3000:5173"
+    volumes:
+      - ./JobBoard-frontend:/app
+      - /app/node_modules
     networks:
       - jobboard-network
+    depends_on:
+      - backend
 
 networks:
   jobboard-network:
