@@ -1,0 +1,28 @@
+'use client';
+import DotGrid from "./Backgrounds/DotGrid/DotGrid";
+
+const DotBackground = ({ children }) => {
+  return (
+    <div className="fixed inset-0 w-full h-full overflow-hidden ">
+      <DotGrid
+       dotSize={17}
+       gap={50}
+       baseColor="#241560ff"
+       activeColor="#6366f1"
+       proximity={250}
+       speedTrigger={250}
+       shockRadius={350}
+       shockStrength={10}
+       maxSpeed={5000}
+       resistance={1000}
+       returnDuration={3.0}
+       className="absolute inset-0 -z-10"
+/>
+      <div className="relative z-10 h-full flex items-center justify-center">
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default DotBackground;
