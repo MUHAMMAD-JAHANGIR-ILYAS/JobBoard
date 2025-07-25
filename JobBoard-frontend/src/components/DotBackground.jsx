@@ -6,9 +6,9 @@ const DotBackground = ({ children }) => {
     <div className="fixed inset-0 w-full h-full overflow-hidden ">
       <DotGrid
        dotSize={17}
-       gap={50}
-       baseColor="#241560ff"
-       activeColor="#6366f1"
+       gap={40}
+       baseColor="#261E36"
+       activeColor="#512DF9"
        proximity={250}
        speedTrigger={250}
        shockRadius={350}

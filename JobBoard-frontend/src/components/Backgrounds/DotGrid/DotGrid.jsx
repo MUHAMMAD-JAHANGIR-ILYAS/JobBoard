@@ -32,9 +32,9 @@ function hexToRgb(hex) {
 
 const DotGrid = ({
   dotSize = 17,
-  gap = 50,
-  baseColor = "#241560ff",
-  activeColor = "#5227FF",
+  gap = 40,
+  baseColor = "#261E36",
+  activeColor = "#512DF9",
   proximity = 250,
   speedTrigger = 250,
   shockRadius = 350,
@@ -122,7 +122,7 @@ const DotGrid = ({
       const ctx = canvas.getContext("2d");
       if (!ctx) return;
       // Fill the canvas with a color (e.g., red) before drawing dots
-      ctx.fillStyle = "#191818ff"; // Change this to any color you want
+      ctx.fillStyle = "#05000F"; // Change this to any color you want
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       const { x: px, y: py } = pointerRef.current;
