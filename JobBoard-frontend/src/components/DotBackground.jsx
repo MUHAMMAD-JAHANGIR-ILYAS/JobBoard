@@ -11,7 +11,7 @@ const DotBackground = ({ children }) => {
        activeColor="#512DF9"
        proximity={250}
        speedTrigger={250}
-       shockRadius={350}
+       shockRadius={200}
        shockStrength={10}
        maxSpeed={5000}
        resistance={1000}

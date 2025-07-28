@@ -37,7 +37,7 @@ const DotGrid = ({
   activeColor = "#512DF9",
   proximity = 250,
   speedTrigger = 250,
-  shockRadius = 350,
+  shockRadius = 200,
   shockStrength = 10,
   maxSpeed = 5000,
   resistance = 1000,
@@ -277,7 +277,7 @@ return (
     <div ref={wrapperRef} className="w-full h-full relative">
       <canvas
         ref={canvasRef}
-        className="absolute inset-0 w-full h-full pointer-events-none"
+        className="absolute inset-0 w-full h-full pointer-events-none z-[-1]"
       />
     </div>
   </section>
